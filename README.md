@@ -1,11 +1,11 @@
 # FullStack
 ## Huong dan su dung du an mock project Website quan ly salon toc
 ### Back end :
-## Spring Boot IDE: Eclipse hoac IntelliJ (Khuyen nghi dung)
+#### Spring Boot IDE: Eclipse hoac IntelliJ (Khuyen nghi dung)
 ### Front end :
-## ReactJS Code Edittor: VSCode
+#### ReactJS Code Edittor: VSCode
 ### SQL DB Management :
-## MySQL Workbench
+#### MySQL Workbench
 
 - B1: Khoi tao db ten `youareright` tren MySQL WB 
 - B2: Chay tat ca file `script` sql trong file DB_Mock_3.zip dinh kem 
