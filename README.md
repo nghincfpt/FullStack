@@ -1,7 +1,7 @@
 # FullStack
 ## Huong dan su dung du an mock project Website quan ly salon toc
 ### Back end :
-#### Spring Boot IDE: Eclipse hoac IntelliJ (Khuyen nghi dung)
+#### Spring Boot IDE:IntelliJ (Khuyen nghi dung) hoac Spring tool suite 4 hoac Eclipse 
 ### Front end :
 #### ReactJS Code Edittor: VSCode
 ### SQL DB Management :
