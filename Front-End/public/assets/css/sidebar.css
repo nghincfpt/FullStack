@@ -1,0 +1,53 @@
+.a1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+.a2 {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+li.a2 a:hover:not(.a3) {
+  background-color: #555;
+  color: white;
+}
+
+#hhh {
+  -ms-flex: 0 0 16.666667%;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+  background-image: url("../img/gallery/footer_bg.png");
+}
+
+button.btn.btn-success {
+  border-radius: 5px;
+  padding: 20px 20px;
+}
+
+html,
+body {
+  background: #efefef;
+  height: 100%;
+}
+#center-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.btn#my-btn {
+  background: white;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  border-radius: 45px;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: #5865c3;
+}

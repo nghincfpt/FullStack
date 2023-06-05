@@ -1,0 +1,51 @@
+.long-text-huyen {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+td.item {
+    display: flex;
+}
+
+
+/* i#huyentn {
+    content: "\e649";
+    color: black;
+    font-size: 0.75em;
+}
+
+.page-link:not(:disabled):not(.disabled).huyen {
+    cursor: pointer;
+    color: #d19f68;
+    font-size: 1.25em;
+} */
+
+/* button.page-link-huyentn {
+    cursor: pointer;
+    color: #d19f68;
+    font-size: 1.25em;
+    border: 10px;
+    padding: 5px;
+} */
+
+.mt-10-huyentn {
+    margin-top: 56px;
+  }
+
+.span-huyentn {
+    color: red;
+}
+
+select#type {
+    height: 40px;
+}
+
+textarea#description {
+    height: 130px;
+}

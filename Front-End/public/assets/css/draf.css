@@ -1,0 +1,56 @@
+.progress-table .serial {
+    width: 5%;
+  }
+  .progress-table .name {
+    width: 20%;
+  }
+  .progress-table .dateOfBirth {
+    width: 10%;
+  }
+  .progress-table .phone {
+    width: 10%;
+  }
+  .progress-table .email {
+    width: 15%;
+  }
+  .progress-table .gender {
+    width: 10%;
+  }
+  .progress-table .branch {
+    width: 15%;
+  }
+  .progress-table .function {
+    width: 20%;
+  }
+  .progress-table .table-head {
+    display: flex;
+  }
+  .progress-table .table-head .serial,
+  .progress-table .table-head .name,
+  .progress-table .table-head .dateOfBirth,
+  .progress-table .table-head .phone,
+  .progress-table .table-head .email,
+  .progress-table .table-head .gender,
+  .progress-table .table-head .branch,
+  .progress-table .table-head .function {
+    color: #415094;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .progress-table .table-row {
+    padding: 15px 0;
+    border-top: 1px solid #edf3fd;
+    display: flex;
+  }
+  .progress-table .table-head .serial,
+  .progress-table .table-head .name,
+  .progress-table .table-head .dateOfBirth,
+  .progress-table .table-head .phone,
+  .progress-table .table-head .email,
+  .progress-table .table-head .gender,
+  .progress-table .table-head .branch,
+  .progress-table .table-head .function  {
+    display: flex;
+    align-items: center;
+  }

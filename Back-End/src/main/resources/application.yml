@@ -1,0 +1,55 @@
+app:
+  jwt:
+    secret: namfanmu2828
+  cors:
+    allowedOrigins: http://localhost:3000,http://localhost:8080
+  oauth2:
+    # After successfully authenticating with the OAuth2 Provider,
+    # we'll be generating an auth token for the user and sending the token to the
+    # redirectUri mentioned by the client in the /oauth2/authorize request.
+    # We're not using cookies because they won't work well in mobile clients.
+    authorizedRedirectUris:
+      - http://localhost:3000/oauth2/redirect
+      - myandroidapp://oauth2/redirect
+      - myiosapp://oauth2/redirect
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+    password: 12345678az
+
+    url: jdbc:mysql://localhost:3306/youareright
+
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+    show-sql: true
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+              clientId: 174964802788-bupsp77at56ahfnk3u739grvovqodbud.apps.googleusercontent.com
+              clientSecret: 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
+              redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
+              scope:
+                - email
+                - profile
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: sportparadiseshop28@gmail.com
+    password: mvadqaupegvdaugc
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            
+          
