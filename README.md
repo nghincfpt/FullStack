@@ -9,7 +9,7 @@
 
 - B1: Khoi tao db ten `youareright` tren MySQL WB 
 - B2: Chay tat ca file `script` sql trong file DB_Mock_3.zip dinh kem 
-- B3: Trong file  back end trong ide tim toi file `application.yml`, thay doi `password` phu hop voi `password` cua ban
+- B3: Trong file  back end trong ide tim toi file `application.yml`, thay doi `username` phu hop voi `password` cua ban
 - B4: Chay server
 - B5: Mo front end,  cai dat cac thu vien can thiet bang `npm install`
 - B6: Chay front end bang cach `npm start`
